@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <title>Pactner | Impact Partners</title>
   <!-- SEO Meta Tags-->
-  <meta name="description" content="Around - Multipurpose Bootstrap HTML Template">
+  <meta name="description" content="Pactner - Multipurpose Bootstrap HTML Template">
   <meta name="keywords"
     content="Pactner is a platform that connects organizations with similar goals and focus areas, facilitating partnerships and collaborations on causes in specific regions, facilitating communication, feedback, and success stories through a matching algorithm, chat and collaboration tools, and data analytics.">
   <meta name="author" content="Team wonder">
@@ -34,119 +34,7 @@
 
 
   </script>
-  <!-- Page loading styles-->
-  <style>
-    .page-loading {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all .4s .2s ease-in-out;
-      transition: all .4s .2s ease-in-out;
-      background-color: #fff;
-      opacity: 0;
-      visibility: hidden;
-      z-index: 9999;
-    }
-
-    .dark-mode .page-loading {
-      background-color: #121519;
-    }
-
-    .page-loading.active {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .page-loading-inner {
-      position: absolute;
-      top: 50%;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      -webkit-transform: translateY(-50%);
-      transform: translateY(-50%);
-      -webkit-transition: opacity .2s ease-in-out;
-      transition: opacity .2s ease-in-out;
-      opacity: 0;
-    }
-
-    .page-loading.active>.page-loading-inner {
-      opacity: 1;
-    }
-
-    .page-loading-inner>span {
-      display: block;
-      font-family: 'Inter', sans-serif;
-      font-size: 1rem;
-      font-weight: normal;
-      color: #6f788b;
-    }
-
-    .dark-mode .page-loading-inner>span {
-      color: #fff;
-      opacity: .6;
-    }
-
-    .page-spinner {
-      display: inline-block;
-      width: 2.75rem;
-      height: 2.75rem;
-      margin-bottom: .75rem;
-      vertical-align: text-bottom;
-      background-color: #d7dde2;
-      border-radius: 50%;
-      opacity: 0;
-      -webkit-animation: spinner .75s linear infinite;
-      animation: spinner .75s linear infinite;
-    }
-
-    .dark-mode .page-spinner {
-      background-color: rgba(255, 255, 255, .25);
-    }
-
-    @-webkit-keyframes spinner {
-      0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-      }
-
-      50% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-      }
-    }
-
-    @keyframes spinner {
-      0% {
-        -webkit-transform: scale(0);
-        transform: scale(0);
-      }
-
-      50% {
-        opacity: 1;
-        -webkit-transform: none;
-        transform: none;
-      }
-    }
-  </style>
-  <!-- Page loading scripts-->
-  <script>
-    (function () {
-      window.onload = function () {
-        const preloader = document.querySelector('.page-loading');
-        preloader.classList.remove('active');
-        setTimeout(function () {
-          preloader.remove();
-        }, 1500);
-      };
-    })();
-
-  </script>
+  
   <!-- Import Google Font-->
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -161,46 +49,25 @@
   <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
   <!-- Customizer generated styles-->
   <style id="customizer-styles"></style>
-  <!-- Google Tag Manager-->
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          '../www.googletagmanager.com/gtm5445.html?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-WKV3GT5');
-  </script>
+ 
 </head>
 <!-- Body-->
 
 <body>
-  <!-- Google Tag Manager (noscript)-->
-  <noscript>
-    <iframe src="http://www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0"
-      style="display: none; visibility: hidden;"></iframe>
-  </noscript>
-  <!-- Page loading spinner-->
-  <div class="page-loading active">
-    <div class="page-loading-inner">
-      <div class="page-spinner"></div><span>Loading...</span>
-    </div>
-  </div>
-  
+
   <!-- Page wrapper-->
   <main class="page-wrapper">
     <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page-->
     <header class="navbar navbar-expand-lg fixed-top bg-light">
       <div class="container"><a class="navbar-brand pe-sm-3" href="index.html"><span
             class="text-primary flex-shrink-0 me-2">
-            </span>Pactner</a>
+          </span>Pactner</a>
         <div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto" data-bs-toggle="mode">
           <input class="form-check-input" type="checkbox" id="theme-mode">
           <label class="form-check-label" for="theme-mode"><i class="ai-sun fs-lg"></i></label>
           <label class="form-check-label" for="theme-mode"><i class="ai-moon fs-lg"></i></label>
         </div><a class="btn btn-primary btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex"
-          href="https://themes.getbootstrap.com/product/around-multipurpose-template-ui-kit/" target="_blank"
+          href="https://themes.getbootstrap.com/product/Pactner-multipurpose-template-ui-kit/" target="_blank"
           rel="noopener">Get Started</a>
         <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span
             class="navbar-toggler-icon"></span></button>
@@ -209,9 +76,10 @@
             <li class="nav-item"><a class="nav-link" href="components/typography.html">What we do</a></li>
             <li class="nav-item"><a class="nav-link" href="docs/getting-started.html">Impact</a></li>
             <li class="nav-item"><a class="nav-link" href="components/typography.html">App features</a></li>
-            <li class="nav-item"><a class="nav-link" href="docs/getting-started.html">Contact us</a></li>
+            <li class="nav-item"><a class="nav-link" href="components/typography.html">Our team</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact-section">Contact us</a></li>
           </ul>
-          
+
         </nav>
       </div>
     </header>
@@ -237,19 +105,20 @@
       </svg>
       <div class="container dark-mode position-relative zindex-5 pt-5 mt-4 mt-lg-5">
         <div class="row justify-content-center text-center pt-md-2 pt-lg-0 pt-xl-2 pb-5 mb-md-2">
-          <div class="col-lg-10 col-xl-9 col-xxl-8"><span class="badge bg-faded-light fs-sm text-white px-3 mb-4">Take your partnerships to the next level</span>
+          <div class="col-lg-10 col-xl-9 col-xxl-8"><span class="badge bg-faded-light fs-sm text-white px-3 mb-4">Take
+              your partnerships to the next level</span>
             <h1 class="display-3 mb-sm-4">Driving impact through effective partnerships</h1>
-            <p class="pb-3 mb-3 mb-lg-4">Using basic data skills you can improve your business stuff with Around</p><a
-              class="btn btn-lg btn-warning" href="https://g99bc7387646b1a-pactnerdb.adb.af-johannesburg-1.oraclecloudapps.com/ords/r/godwin/organizations/login?session=100998456578279">Get Involved Now</a>
+            <p class="pb-3 mb-3 mb-lg-4">Using basic data skills you can improve your business stuff with Pactner</p><a
+              class="btn btn-lg btn-warning"
+              href="https://g99bc7387646b1a-pactnerdb.adb.af-johannesburg-1.oraclecloudapps.com/ords/r/godwin/organizations/login?session=100998456578279">Get
+              Involved Now</a>
           </div>
         </div>
         <div class="bg-black rounded-4 p-2 mx-auto" style="max-width: 1160px;">
           <div class="overflow-hidden" style="border-radius: calc(var(--ar-border-radius) * 1.25);">
             <img-comparison-slider class="m-n1">
-              <figure slot="first"><img src="assets/branding/partner.png"
-                  alt="Dashboard Dark Mode"></figure>
-              <figure slot="second"><img src="assets/branding/partner.png"
-                  alt="Dashboard Light Mode"></figure>
+              <figure slot="first"><img src="assets/branding/partner.png" alt="Dashboard Dark Mode"></figure>
+              <figure slot="second"><img src="assets/branding/partner.png" alt="Dashboard Light Mode"></figure>
               <div slot="handle" style="width: 42px;">
                 <svg class="text-primary rounded-circle" width="42" height="42" viewBox="0 0 42 42"
                   xmlns="http://www.w3.org/2000/svg">
@@ -269,7 +138,7 @@
     <!-- Reviews-->
     <section class="container pt-5 mt-lg-3 mt-xl-4 mt-xxl-5">
       <h2 class="h1 text-center pt-2 pt-sm-3 pt-md-4 pb-sm-2 pb-lg-3 mt-lg-2 mx-auto" style="max-width: 740px;">
-        Customers have consistently rated Around 4.7/5 stars</h2>
+        Customers have consistently rated Pactner 4.7/5 stars</h2>
       <div class="swiper" data-swiper-options="
           {
             &quot;spaceBetween&quot;: 24,
@@ -290,7 +159,7 @@
               <div class="d-flex justify-content-center fs-lg mb-4"><i class="ai-star-filled text-warning mx-2"></i><i
                   class="ai-star-filled text-warning mx-2"></i><i class="ai-star-filled text-warning mx-2"></i><i
                   class="ai-star-filled text-warning mx-2"></i><i class="ai-star-filled text-warning mx-2"></i></div>
-              <p class="mb-3">“Around provides us with the detailed and accurate data we need.”</p><img
+              <p class="mb-3">“Pactner provides us with the detailed and accurate data we need.”</p><img
                 class="d-inline-block d-dark-mode-none" src="assets/img/landing/saas-1/brands/clutch-dark.svg"
                 width="196" alt="Clutch"><img class="d-none d-dark-mode-inline-block"
                 src="assets/img/landing/saas-1/brands/clutch-light.svg" width="196" alt="Clutch">
@@ -451,7 +320,8 @@
     <!-- Industries-->
     <section class="bg-dark dark-mode border-top border-light py-2 py-sm-3 py-md-4 py-lg-5">
       <div class="container py-5 my-lg-3 my-xl-4 my-xxl-5">
-        <h2 class="h1 text-center text-md-start mt-lg-n3 pb-4 pb-md-5" style="max-width: 660px;">Around suitable for any
+        <h2 class="h1 text-center text-md-start mt-lg-n3 pb-4 pb-md-5" style="max-width: 660px;">Pactner suitable for
+          any
           business, from stores to agencies</h2>
         <div class="row pt-sm-2 pt-md-0 pt-xl-1 pt-xxl-3">
           <div class="col-md-6 col-xl-5 offset-xl-1 order-md-2 pb-4 pb-md-0 mb-2 mb-md-0">
@@ -660,8 +530,7 @@
     </section>
     <!-- Testimonials-->
     <section class="container pt-2 pt-sm-3 pt-md-4 pt-lg-5">
-      <h2 class="text-center pt-5 pb-3 mb-lg-4 mt-lg-3 mt-xl-4 mt-xxl-5">More than 2,000 clients using Around to analyze
-        data</h2>
+      <h2 class="text-center pt-5 pb-3 mb-lg-4 mt-lg-3 mt-xl-4 mt-xxl-5">More than 2,000 clients will be using Pactner to make the prefect impact matches</h2>
       <!-- Nav tabs-->
       <div class="overflow-auto pb-3 pb-xl-4 mb-3 mb-lg-4">
         <ul class="nav nav-tabs justify-content-between flex-nowrap text-nowrap p-0 m-0" role="tablist"
@@ -734,9 +603,9 @@
                 <p class="fs-lg text-muted mb-0">Head of Marketing</p>
               </div>
               <div class="col-md-8 col-lg-7">
-                <p class="text-dark lead mb-0">“Around provides us with the detailed and accurate data we need to make
+                <p class="text-dark lead mb-0">“Pactner provides us with the detailed and accurate data we need to make
                   strategic decisions. All tools are constantly being improved and contain a lot of useful and
-                  interesting information. Thanks to Around, we can constantly analyze our big data quickly and
+                  interesting information. Thanks to Pactner, we can constantly analyze our big data quickly and
                   efficiently.”</p>
               </div>
             </div>
@@ -835,7 +704,7 @@
         <div class="col-sm-7 col-md-6 col-xl-5 offset-xl-1 order-sm-1" data-aos="fade-up" data-aos-duration="850"
           data-aos-offset="200" data-disable-parallax-down="md">
           <div class="pe-sm-3 pe-md-0">
-            <h2 class="h1 pb-1 pb-sm-2 pb-lg-3">Download Around app for any devices</h2>
+            <h2 class="h1 pb-1 pb-sm-2 pb-lg-3">Download Pactner app for any devices</h2>
             <p class="mb-0">Now there is a mobile application so that you can always quickly and conveniently track your
               data morbi et massa fames ac scelerisque sit commodo dignissim.</p>
             <div class="d-flex justify-content-between pt-4 pt-lg-5 mt-sm-2" style="max-width: 450px;">
@@ -854,69 +723,92 @@
         </div>
       </div>
     </section>
+    
     <!-- CTA-->
-    <section class="container">
-      <div class="bg-dark rounded-5 position-relative overflow-hidden py-5 px-4 px-sm-5">
-        <div class="d-none d-dark-mode-block position-absolute top-0 start-0 w-100 h-100"
-          style="background-color: rgba(255,255,255, .02);"></div>
-        <svg class="position-absolute start-0 bottom-0 zindex-2" width="713" height="410" viewBox="0 0 713 410"
-          fill="none" stroke="white" stroke-opacity="0.12" xmlns="http://www.w3.org/2000/svg">
+    <section class="container" id="contact-section">
+      <div class="card border-0 bg-primary position-relative py-lg-4 py-xl-5">
+        <!-- Decorative shapes-->
+        <svg class="position-absolute end-0 mt-n2" width="242" height="331" viewBox="0 0 242 331" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
           <path
-            d="M682.907 484.533C695.503 444.57 705.228 400.872 691.238 361.386C672.894 309.65 617.745 278.967 563.532 270.375C509.32 261.768 454.065 270.505 399.207 272.603C344.348 274.702 285.906 268.882 241.992 235.917C181.111 190.21 163.777 104.969 109.285 51.7863C63.8512 7.45308 -6.63234 -9.27787 -67.1491 9.9424">
-          </path>
+            d="M172.014 250.127C137.236 227.74 112.349 192.144 144.586 153.591C157.686 137.932 176.759 127.973 196.524 122.046C234.647 110.639 277.027 113.361 313.349 129.576C338.19 140.666 361.129 159.183 369.934 184.502C383.476 223.496 359.75 260.161 321.569 273.118C288.832 284.223 247.685 279.513 214.885 269.837C201.003 265.743 185.745 258.966 172.014 250.127Z"
+            fill="#121519" fill-opacity=".07"></path>
           <path
-            d="M641.482 482.967C653.4 445.169 662.6 403.82 649.367 366.472C632.013 317.53 579.846 288.506 528.564 280.379C477.267 272.236 425.011 280.507 373.121 282.492C321.231 284.477 265.935 278.97 224.403 247.786C166.796 204.54 150.415 123.91 98.8593 73.6098C55.8807 31.6733 -10.8023 15.8433 -68.0415 34.0275">
-          </path>
-          <path
-            d="M600.052 481.4C611.277 445.751 619.968 406.784 607.477 371.559C591.113 325.409 541.928 298.044 493.561 290.383C445.194 282.705 395.92 290.508 346.984 292.363C298.047 294.234 245.913 289.041 206.762 259.639C152.445 218.868 137.002 142.834 88.3989 95.4004C47.876 55.8447 -14.9912 40.9323 -68.9688 58.0798">
-          </path>
-          <path
-            d="M558.622 479.833C569.168 446.349 577.336 409.73 565.601 376.644C550.227 333.287 504.025 307.582 458.589 300.385C413.153 293.173 366.862 300.493 320.893 302.251C274.925 304.009 225.953 299.128 189.168 271.507C138.142 233.198 123.636 161.774 77.9686 117.223C39.9006 80.0639 -19.166 66.0526 -69.8661 82.164">
-          </path>
-          <path
-            d="M517.195 478.267C527.064 446.932 534.691 412.678 523.729 381.732C509.361 341.167 466.125 317.121 423.62 310.39C381.115 303.643 337.806 310.496 294.806 312.141C251.807 313.785 205.981 309.216 171.561 283.377C123.825 247.544 110.24 180.715 67.5263 139.03C31.9133 104.268 -23.3529 91.1578 -70.7753 106.233">
-          </path>
+            d="M20.3265 69.264C19.7064 43.0736 29.8071 17.1878 62.3851 19.8622C75.6229 20.9505 87.9525 27.2066 98.3563 35.3132C118.426 50.9253 132.424 73.896 136.952 98.6413C140.044 115.562 138.424 134.218 127.978 148C111.901 169.236 83.4531 170.283 62.5246 155.209C44.5807 142.281 32.0983 119.217 25.3391 98.6799C22.4836 89.9885 20.5616 79.6021 20.3265 69.264Z"
+            fill="#121519" fill-opacity=".07"></path>
         </svg>
-        <svg class="position-absolute top-0 end-0 zindex-2" width="317" height="367" viewBox="0 0 317 367" fill="none"
-          stroke="white" stroke-opacity="0.12" xmlns="http://www.w3.org/2000/svg">
+        <svg class="position-absolute start-0 bottom-0 ms-3" width="169" height="217" viewBox="0 0 169 217" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
           <path
-            d="M766.907 366.533C779.503 326.57 789.228 282.872 775.238 243.386C756.894 191.65 701.745 160.967 647.532 152.375C593.32 143.768 538.065 152.505 483.207 154.603C428.348 156.702 369.906 150.882 325.992 117.917C265.111 72.2101 247.777 -13.031 193.285 -66.2137C147.851 -110.547 77.3677 -127.278 16.8509 -108.058">
-          </path>
+            d="M34.2574 90.0177C29.666 97.6253 26.6254 106.591 24.9502 114.96C19.9522 140.043 26.4112 168.792 49.6162 181.885C66.0705 191.17 91.0017 189.904 108.062 183.692C125.725 177.266 135.045 168.04 142.29 150.389C151.409 128.174 150.912 99.6904 125.93 91.6429C115.423 88.254 104.723 86.5065 94.2249 82.5889C84.6622 79.0248 74.8545 72.1766 64.4411 71.6149C50.8011 70.8777 40.9122 79.0146 34.2574 90.0177Z"
+            fill="#121519" fill-opacity="0.07"></path>
           <path
-            d="M725.482 364.967C737.4 327.169 746.6 285.82 733.367 248.472C716.013 199.53 663.846 170.506 612.564 162.379C561.267 154.236 509.011 162.507 457.121 164.492C405.231 166.477 349.935 160.97 308.403 129.786C250.796 86.5396 234.415 5.91023 182.859 -44.3902C139.881 -86.3267 73.1977 -102.157 15.9585 -83.9725">
-          </path>
-          <path
-            d="M684.052 363.4C695.277 327.751 703.968 288.784 691.477 253.559C675.113 207.409 625.928 180.044 577.561 172.383C529.194 164.705 479.92 172.508 430.984 174.363C382.047 176.234 329.913 171.041 290.762 141.639C236.445 100.868 221.002 24.8341 172.399 -22.5996C131.876 -62.1553 69.0088 -77.0677 15.0312 -59.9202">
-          </path>
-          <path
-            d="M642.622 361.833C653.168 328.349 661.336 291.73 649.601 258.644C634.227 215.287 588.025 189.582 542.589 182.385C497.153 175.173 450.862 182.493 404.893 184.251C358.925 186.009 309.953 181.128 273.168 153.507C222.142 115.198 207.636 43.7743 161.969 -0.777178C123.901 -37.9361 64.834 -51.9474 14.1339 -35.836">
-          </path>
-          <path
-            d="M601.195 360.267C611.064 328.932 618.691 294.678 607.729 263.732C593.361 223.167 550.125 199.121 507.62 192.39C465.115 185.643 421.806 192.496 378.806 194.141C335.807 195.785 289.981 191.216 255.561 165.377C207.825 129.544 194.24 62.7152 151.526 21.0304C115.913 -13.7317 60.6471 -26.8422 13.2247 -11.7668">
-          </path>
+            d="M147.005 75.6331C152.135 70.7783 156.106 64.2374 159.153 57.9073C166.014 43.6372 174.127 22.1368 160.207 9.68505C152.924 3.17188 139.243 3.86644 130.324 5.29774C118.428 7.20428 107.295 8.85077 96.5031 14.783C85.8056 20.6599 79.0155 33.6997 77.0014 45.6686C75.4978 54.5776 79.63 63.6672 84.7391 70.7453C91.8208 80.5571 103.503 84.2003 114.817 84.3975C121.101 84.5081 127.716 84.0527 133.89 82.8121C138.932 81.7962 143.273 79.1597 147.005 75.6331Z"
+            fill="#121519" fill-opacity="0.07"></path>
         </svg>
-        <div class="dark-mode position-relative zindex-3 text-center px-3 px-sm-0 pb-2 py-sm-3 py-md-4 py-lg-5">
-          <h2 class="display-3 pt-xl-2">Get Started with Around</h2>
-          <p class="fs-lg pb-4 pb-lg-5 mb-2 mb-sm-3 mb-lg-0 mb-xl-2">Using basic data skills you can analysis and
-            improve your business indicators.</p><a class="btn btn-lg btn-primary mb-lg-2 mb-xl-4" href="#">Start free
-            14-day trial</a>
+        <div class="card-body position-relative zindex-2 py-5">
+          <form class="mx-auto" style="max-width: 800px;">
+            <h2 class="h1 card-title text-center pb-4">Contact us now</h2>
+            <div class="row g-4">
+              <div class="col-sm-6">
+                <label class="form-label fs-base" for="name">Name</label>
+                <input class="form-control form-control-lg" type="text" placeholder="Your name" required id="name">
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label fs-base" for="company">Company</label>
+                <input class="form-control form-control-lg" type="text" placeholder="Your company name" id="company">
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label fs-base" for="email">Email</label>
+                <input class="form-control form-control-lg" type="email" placeholder="Email address" required id="email">
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label fs-base" for="phone">Phone</label>
+                <input class="form-control form-control-lg" type="text" placeholder="Phone number" id="phone">
+              </div>
+              <div class="col-sm-12">
+                <label class="form-label fs-base" for="message">How can we help?</label>
+                <textarea class="form-control form-control-lg" rows="6" placeholder="Enter your message here..." required
+                  id="message"></textarea>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="seo">
+                  <label class="form-check-label fs-base" for="seo">Impact partners</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="email-marketing" checked>
+                  <label class="form-check-label fs-base" for="email-marketing">The nature of partnerships</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="social">
+                  <label class="form-check-label fs-base" for="social">Matching Algorithm:</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="checkbox" id="content-marketing">
+                  <label class="form-check-label fs-base" for="content-marketing">Chat and Collaboration Tools</label>
+                </div>
+              </div>
+              <div class="col-sm-12 text-center pt-4">
+                <button class="btn btn-lg btn-light" type="submit">Send a request</button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </section>
+    
   </main>
-  <!-- Footer-->
-  <footer class="footer py-5">
-    <div class="container pt-md-2 pt-lg-3 pt-xl-4">
-      <div class="row pb-5 pt-sm-2 mb-lg-2">
+<!-- Footer-->
+<footer class="footer py-5">
+  <div class="container pt-md-2 pt-lg-3 pt-xl-4">
+    <div class="row pb-5 pt-sm-2 mb-lg-2">
         <div class="col-md-4 col-lg-3 pb-2 pb-md-0 mb-4 mb-md-0"><a class="navbar-brand py-0 mb-3 mb-md-4"
             href="index-2.html"><span class="text-primary flex-shrink-0 me-2">
-              <svg version="1.1" width="35" height="32" viewBox="0 0 36 33" xmlns="http://www.w3.org/2000/svg">
-                <path fill="currentColor"
-                  d="M35.6,29c-1.1,3.4-5.4,4.4-7.9,1.9c-2.3-2.2-6.1-3.7-9.4-3.7c-3.1,0-7.5,1.8-10,4.1c-2.2,2-5.8,1.5-7.3-1.1c-1-1.8-1.2-4.1,0-6.2l0.6-1.1l0,0c0.6-0.7,4.4-5.2,12.5-5.7c0.5,1.8,2,3.1,3.9,3.1c2.2,0,4.1-1.9,4.1-4.2s-1.8-4.2-4.1-4.2c-2,0-3.6,1.4-4,3.3H7.7c-0.8,0-1.3-0.9-0.9-1.6l5.6-9.8c2.5-4.5,8.8-4.5,11.3,0L35.1,24C36,25.7,36.1,27.5,35.6,29z">
-                </path>
-              </svg></span><span class="text-nav">Around</span></a>
-          <p class="fs-sm pb-2 pb-md-3 mb-3">Tellus non diam morbi quam vel venenatis proin sed. Dolor elementum nunc
-            dictum interdum amet arcu aenean eu integer</p>
+            </span><span class="text-nav">Pactner</span></a>
+          <p class="fs-sm pb-2 pb-md-3 mb-3">Pactner is a unique solution that connects organizations with similar goals
+            and focus areas, facilitating
+            collaborations that drive impact, making it easy to achieve the Sustainable Development Goals.</p>
           <div class="d-flex"><a class="btn btn-icon btn-sm btn-secondary btn-facebook rounded-circle me-3" href="#"><i
                 class="ai-facebook"></i></a><a
               class="btn btn-icon btn-sm btn-secondary btn-instagram rounded-circle me-3" href="#"><i
@@ -957,8 +849,8 @@
         </div>
       </div>
       <p class="fs-sm mb-0"><span class="opacity-70">&copy; All rights reserved. Made by </span><a
-          class="nav-link d-inline fw-normal p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx
-          Studio</a></p>
+          class="nav-link d-inline fw-normal p-0" href="#" target="_blank" rel="noopener">Team
+          Wonder</a></p>
     </div>
   </footer>
   <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll>
